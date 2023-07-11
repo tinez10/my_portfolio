@@ -1,0 +1,217 @@
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: auto;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: auto;
+    }
+  }
+
+.container{
+    display: flex;
+    height: 620px;
+}
+.item{
+    display: block;
+    background-color: slategray;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.tinez{
+    font-size: 250%;
+    transition: 0.2s;
+}
+.tinez:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+.item2{
+    display: flex;
+    flex: 1;
+}
+.picture{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.centered{
+    position: absolute;
+    color: #fff;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+.mato{
+    color: yellowgreen;
+    font-size: 50px;
+    padding-top: 100px;
+    transition: 0.2s;
+}
+.mato:hover{
+    color: red;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom-style: double;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.statement{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: auto;
+    align-items: center;
+    border-radius: 50px;
+
+}
+p{
+    color: #fff;
+    font-size: larger;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.istagram{
+    height: 30px;
+    padding-right: 10px;
+}
+.facebook{
+    height: 30px;
+    padding-right: 10px;
+}
+.linked{
+    height: 30px;
+    padding-right: 10px;
+}
+.twitter{
+    height: 30px;
+    padding-right: 10px;
+}
+.mail{
+    height: 30px;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-right: 10px;
+}
+.navigate p a{
+    color: black;
+   display: block;
+}
+p .icons{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.about h2{
+    align-items: center;
+    color: gray;
+    font-size: larger;
+    font-weight: 500;
+    padding-left: 500px;
+}
+.about p{
+    color: black;
+    align-items: center;
+    background-color: wheat;
+    border: 1px solid brown;
+}
+.cont{
+    display: flex;
+    flex: 1;
+    border: 1px solid brown;
+}
+.cont1{
+    display: block;
+    background-color: #FFF;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex: 1;
+    height: 450px;
+}
+.cont2{
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex: 1;
+    height: 450px;
+}
+.cont2 p{
+    color: black;
+}
+.cont3{
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex: 1;
+    height: 450px;
+}
+.cont3 p{
+    color: #000000;
+}
+h5{
+    padding-top: 1px;
+    Font-size: larger;
+    font-family: Arial;
+    transition: 0.3s;
+   
+}
+h5:hover{
+    color: tomato;
+    cursor: pointer;
+    padding-bottom: 15px;
+    border-bottom-style: double;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+li{
+    padding-top: 1px;
+    Font-size: larger;
+    font-family: Arial;
+    transition: 0.3s;
+}
+li:hover{
+    color: magenta;
+    cursor: pointer;
+}
+h4{
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial;
+    color: #fff;
+    background-color: coral;
+    padding-left: 20px;
+}
+.customer{
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.services{
+    display: flex;
+    height: 620px;
+}
+.call{
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+footer{
+    align-items: center;
+    background-color: brown;
+    transition: 0.3s;
+}
+footer:hover{
+    color: #fff;
+    cursor: pointer;
+}
