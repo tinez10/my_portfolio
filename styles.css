@@ -1,14 +1,30 @@
-@media screen and (min-width: auto) {
-    .container {
-      max-width: auto;
-    }
+/* CSS for large screens */
+@media screen and (min-width: 1200px) {
+  /* Add your CSS rules for large screens here */
+  body {
+    font-size: 18px;
+    /* ... */
   }
+}
 
-  @media screen and (min-width: auto) {
-    .container {
-      max-width: auto;
-    }
+/* CSS for medium screens */
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  /* Add your CSS rules for medium screens here */
+  body {
+    font-size: 16px;
+    /* ... */
   }
+}
+
+/* CSS for small screens */
+@media screen and (max-width: 767px) {
+  /* Add your CSS rules for small screens here */
+  body {
+    font-size: 14px;
+    /* ... */
+  }
+}
+
 
 .container{
     display: flex;
