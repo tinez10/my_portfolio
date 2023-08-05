@@ -1,29 +1,4 @@
-/* Base styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* Media queries */
-@media (max-width: 768px) {
-  /* For screens with a width of 768px or less */
-  .container {
-    width: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  /* For screens with a width of 480px or less (e.g., mobile phones) */
-  .container {
-    width: 100%;
-  }
-}
 
 
 .container{
