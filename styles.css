@@ -206,11 +206,24 @@ footer:hover{
     color: #fff;
     cursor: pointer;
 }
-@media only screen and (max-width: 414 px) {
+@media only screen and (max-width: 400px) {
     .container{
-        visibility: collapse;
-    }
-    .item{
-        visibility: visible;
+        height:90%;
+        width: 90%;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .item{
+        height:90%;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .cont{
+        display: flex;
+        flex: 1;
+        border: 1px solid brown;
+    }
+}
+
