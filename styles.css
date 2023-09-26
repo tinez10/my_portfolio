@@ -221,9 +221,8 @@ footer:hover{
 }
 @media only screen and (max-width: 400px) {
     .cont{
-        display: flex;
-        flex: 1;
-        border: 1px solid brown;
+        height: 90%;
+        width: 90%;
     }
 }
 
